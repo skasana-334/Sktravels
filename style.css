@@ -240,8 +240,16 @@ flex-wrap: wrap;
         flex-wrap: wrap;
     }
 }
-/* @media screen and (max-device-width: 460px){
-    .home .ctext{
-        width: 50%;
+@media screen and (max-device-width: 400px){
+    .form-container form{
+        display: flex;
+        flex-wrap:wrap;
+        align-items: center;
+        position: absolute;
+        gap: 0.1rem;
+       width: 100%;
+    bottom:-12rem;}
+    .ride .heading{
+        margin-top: 14rem;
     }
-} */
+}
